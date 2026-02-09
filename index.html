@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DailyFocus</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#2b6cb0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DailyFocus">
+<link rel="apple-touch-icon" href="images/pwa-icon-192.png">
+</head>
+<body>
+<div class="container">
+<h1>DailyFocus</h1>
+<p class="subtitle">Zaplanuj swój dzień</p>
+
+<form id="taskForm">
+<input type="text" id="taskInput" placeholder="Nowe zadanie" required>
+<button type="submit">Dodaj</button>
+</form>
+
+<ul id="taskList"></ul>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
